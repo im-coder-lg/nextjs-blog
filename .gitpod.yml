@@ -3,9 +3,9 @@ image:
 
 tasks:
   - name: Next.js Server
-    command: |
-        cd nextjs-blog
-        npm run dev
+    before: cd nextjs-blog
+    init: npm install
+    command: npm run dev
 
   - name: Oh My ZSH
     command: |
@@ -28,11 +28,8 @@ vscode:
     - leandro-rodrigues.fluent-ui-vscode
     - miguelsolorio.fluent-icons
     - pkief.material-icon-theme
-
     - ms-azuretools.vscode-docker
-    
     - felipecaputo.git-project-manager
-
     - eamodio.gitlens
 
 github:
