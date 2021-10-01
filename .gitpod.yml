@@ -3,6 +3,7 @@ image:
 
 tasks:
   - name: Next.js Server
+    init: npm install
     command: |
         cd nextjs-blog
         npm run dev
