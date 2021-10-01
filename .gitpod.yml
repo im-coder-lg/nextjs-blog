@@ -6,6 +6,10 @@ tasks:
     before: cd nextjs-blog
     init: npm install
     command: npm run dev
+  - name: Next.js CLI
+    before: cd nextjs-blog
+    init: npm i -g next react react-dom
+    command: exit
 
   - name: Oh My ZSH
     command: |
