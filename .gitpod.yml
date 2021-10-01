@@ -1,0 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Next.js Server
+    command: |
+        cd nextjs-blog
+        npm run dev
+      
