@@ -4,8 +4,9 @@ image:
 tasks:
   - name: Next.js Server
     command: |
+        npm install next react react-dom
         cd nextjs-blog
-        npm run dev
+        next dev
 
 
 ports:
