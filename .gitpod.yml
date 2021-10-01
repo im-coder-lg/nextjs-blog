@@ -7,6 +7,16 @@ tasks:
         cd nextjs-blog
         npm run dev
 
+  - name: Oh My ZSH
+    command: |
+        zsh
+        git clone http://github.com/robbyrussell/oh-my-zsh ~/.oh-my-zsh
+        mv -b \
+        ~/.oh-my-zsh/templates/zshrc.zsh-template \
+        ~/.zshrc
+        cat ~/.zshrc~ >> ~/.zshrc
+        source ~/.zshrc
+
 
 ports:
   - port: 3000
