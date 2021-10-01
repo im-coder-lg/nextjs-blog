@@ -6,4 +6,9 @@ tasks:
     command: |
         cd nextjs-blog
         npm run dev
+
+
+ports:
+  - port: 3000
+    onOpen: open-browser
       
