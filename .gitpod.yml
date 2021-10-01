@@ -12,3 +12,32 @@ ports:
   - port: 3000
     onOpen: open-browser
       
+      
+vscode:
+  extensions:
+    - leandro-rodrigues.fluent-ui-vscode
+    - miguelsolorio.fluent-icons
+    - pkief.material-icon-theme
+
+    - ms-azuretools.vscode-docker
+    
+    - felipecaputo.git-project-manager
+
+    - eamodio.gitlens
+
+github:
+  prebuilds:
+    # enable for the master/default branch (defaults to true)
+    master: true
+# enable for all branches in this repo (defaults to false)
+    branches: true
+# enable for pull requests coming from this repo (defaults to true)
+    pullRequests: true
+# enable for pull requests coming from forks (defaults to false)
+    pullRequestsFromForks: true
+# add a "Review in Gitpod" button as a comment to pull requests (defaults to true)
+    addComment: true
+# add a "Review in Gitpod" button to pull requests (defaults to false)
+    addBadge: true
+# add a label once the prebuild is ready to pull requests (defaults to false)
+    addLabel: prebuilt-in-gitpod
