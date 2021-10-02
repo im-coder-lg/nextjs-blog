@@ -3,17 +3,14 @@ image:
 
 tasks:
   - name: Next.js Server
-    before: cd nextjs-blog
+    before: npm i -g next react react-dom
     init: npm install
     command: npm run dev
-  - name: Next.js CLI
-    before: cd nextjs-blog
-    init: npm i -g next react react-dom
-    command: exit
 
   - name: Oh My ZSH
+    before: sudo apt install zsh
+    init: zsh
     command: |
-        zsh
         git clone http://github.com/robbyrussell/oh-my-zsh ~/.oh-my-zsh
         mv -b \
         ~/.oh-my-zsh/templates/zshrc.zsh-template \
