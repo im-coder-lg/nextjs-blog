@@ -22,8 +22,8 @@ tasks:
 ports:
   - port: 3000
     onOpen: open-browser
-      
-      
+
+
 vscode:
   extensions:
     - leandro-rodrigues.fluent-ui-vscode
@@ -32,6 +32,10 @@ vscode:
     - ms-azuretools.vscode-docker
     - felipecaputo.git-project-manager
     - eamodio.gitlens
+
+    - tabnine.tabnine-vscode
+
+    - vscode-icons-team.vscode-icons
 
 github:
   prebuilds:

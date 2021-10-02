@@ -1,0 +1,13 @@
+{
+  "settings": "",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "explorer.confirmDragAndDrop": false,
+  "git.confirmSync": false,
+  "redhat.telemetry.enabled": true,
+  "tabnine.experimentalAutoImports": true,
+  "editor.tabSize": 2
+}
