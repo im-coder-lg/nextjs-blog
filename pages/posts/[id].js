@@ -22,11 +22,3 @@ export async function getStaticProps({ params }) {
     }
   }
 }
-
-export async function getStaticProps() {
-  const paths = getAllPostIds()
-  return {
-    paths,
-    fallback: false
-  }
-}
