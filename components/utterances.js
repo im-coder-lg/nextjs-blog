@@ -14,8 +14,8 @@ export default class Comments extends Component {
         scriptEl.setAttribute("async", true);
         scriptEl.setAttribute("theme", 'github-light');
         scriptEl.setAttribute("repo", "im-coder-lg/my-blog-comments"); // i.e. bjcarlson42/comments-coffeeclass.io
-        scriptEl.setAttribute("issue-term", "url"); // you can change 'url' with other options
-        scriptEl.setAttribute("label", "Comments");
+        scriptEl.setAttribute("issue-term", "title"); // you can change 'url' with other options
+        scriptEl.setAttribute("label", "nextjs-blog-comments");
         this.commentBox.current.appendChild(scriptEl);
     }
 
