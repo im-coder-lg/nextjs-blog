@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'im-coder-lg'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Next.js Blog'
 
 export default function Layout({ children, home }) {
   return (
@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/profile.jpg" // hmmmm
               className={utilStyles.borderCircle}
               height={144}
               width={144}
