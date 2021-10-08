@@ -8,11 +8,11 @@ export default class Comments extends Component {
     }
 
     componentDidMount() {
-        scriptEl.setAttribute("theme", 'github-light');
         let scriptEl = document.createElement("script");
         scriptEl.setAttribute("src", "https://utteranc.es/client.js");
         scriptEl.setAttribute("crossorigin", "anonymous");
         scriptEl.setAttribute("async", true);
+        scriptEl.setAttribute("theme", 'github-light');
         scriptEl.setAttribute("repo", "im-coder-lg/my-blog-comments"); // i.e. bjcarlson42/comments-coffeeclass.io
         scriptEl.setAttribute("issue-term", "url"); // you can change 'url' with other options
         scriptEl.setAttribute("label", "Comments");
