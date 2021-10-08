@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout from '../../components/layout'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
+import UCS from '../../components/utterances' // UCS => Utterances Comment System
 
 export default function Post({ postData }) {
   return (
@@ -16,6 +17,7 @@ export default function Post({ postData }) {
         </div>
         <div dangerouslySetInnerHTML={{__html: postData.contentHtml}} />
       </article>
+      <UCS />
     </Layout>
   )
 }

@@ -15,7 +15,9 @@ export default function Home({ allPostsData }) {
         <p>Hey! I am learning Next.js, this is the result!</p>
         <p>
           (This is a sample website - you'll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>)
+          <a href="https://nextjs.org/learn">the Next.js tutorial</a>)
+          <br/>
+          But if you want a really mimimal and blazingly-fast blog ready for you with a comment system built-in, this is the one for you.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
