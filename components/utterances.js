@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-export default class Comments extends Component {
-
+export default class UCS extends Component { 
+    // UCS => Utterances Comment System
     constructor(props) {
         super(props);
         this.commentBox = React.createRef(); // use ref to create our element
@@ -13,8 +13,8 @@ export default class Comments extends Component {
         scriptEl.setAttribute("crossorigin", "anonymous");
         scriptEl.setAttribute("async", true);
         scriptEl.setAttribute("theme", 'github-light');
-        scriptEl.setAttribute("repo", "im-coder-lg/my-blog-comments"); // i.e. bjcarlson42/comments-coffeeclass.io
-        scriptEl.setAttribute("issue-term", "title"); // you can change 'url' with other options
+        scriptEl.setAttribute("repo", "im-coder-lg/nextjs-blog"); // i.e. im-coder-lg/nextjs-blog
+        scriptEl.setAttribute("issue-term", "title"); // you can change 'title' with other options
         scriptEl.setAttribute("label", "nextjs-blog-comments");
         this.commentBox.current.appendChild(scriptEl);
     }
